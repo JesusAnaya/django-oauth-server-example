@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<div class="container">
+    <div class="card card-container">
+        <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+        <p id="profile-name" class="profile-name-card"></p>
+
+        <div class="form-signin">
+            <p><strong>Are you sure you want to logout?</strong></p>
+            <button class="btn btn-danger btn-block" type="submit">Log out!</button>
+        </div>
+    </div>
+</div>
+{% endblock %}
